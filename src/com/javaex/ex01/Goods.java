@@ -8,16 +8,16 @@ public class Goods {
 	
 	
 	//메소드
-	public void setName(String n) {
-		name = n;
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	public String getName() {
 		return name;
 	}
 	
-	public void setPrice(int p) {
-		price = p;
+	public void setPrice(int price) {
+		this.price = price;
 	}
 	
 	public int getPrice() {
@@ -28,6 +28,11 @@ public class Goods {
 		System.out.println("상품명: " + name );
 		System.out.println("가격: " + price );
 		System.out.println("----------------------" );
+	}
+
+	@Override
+	public String toString() {
+		return "Goods [name=" + name + ", price=" + price + "]";
 	}
 	
 
