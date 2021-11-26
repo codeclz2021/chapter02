@@ -47,11 +47,12 @@ public class Student extends Person{
 	// 메소드 - 일반
 	@Override
 	public String toString() {
-		return "Student [schoolName=" + schoolName + "]";
+		return "Student [schoolName=" + schoolName + ", name=" + name + ", age=" + age + "]";
 	}
 	
 	
-	public void showInfo2() {
+	
+	public void showInfo() {
 		
 		System.out.println("****************************");
 		System.out.println("이름: "+ super.name);
@@ -61,6 +62,7 @@ public class Student extends Person{
 		System.out.println("");
 		
 	}
+
 	
 	
 	
