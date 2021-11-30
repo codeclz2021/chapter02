@@ -71,7 +71,8 @@ public class ShapeApp {
 		for (int i = 0; i < tArray.length; i++) {
 			tArray[i].draw();
 		}
-
+		
+	
 	}
 
 }
